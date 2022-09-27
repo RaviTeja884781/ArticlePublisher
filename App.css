@@ -1,0 +1,14 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.app>p {
+    font-size: 18px;
+    background-color: #83c5be;
+    text-align: center;
+    width: 100%;
+    color: #edf6f9;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}

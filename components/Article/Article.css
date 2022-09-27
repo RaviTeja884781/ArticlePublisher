@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.article{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.article_div{
+    border-radius: 15px;
+    margin-top: 30px;
+    width: 45%;
+    height: 800PX;
+    overflow-y: scroll;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.article_pic1{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 250px;
+    width: 100%;
+}
+
+.article_body{
+    padding: 10px;
+}
+
+.article_title{
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    color: aliceblue;
+    background-color: #788B99;
+   
+}
+.article_content{
+    margin-top: 10px;
+    word-spacing: 2px;
+    font-size: 20px;
+}
